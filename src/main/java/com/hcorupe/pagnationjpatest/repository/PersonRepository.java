@@ -7,6 +7,7 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import java.util.List;
 
 public interface PersonRepository extends PagingAndSortingRepository<Person, Integer>, CrudRepository<Person, Integer>{
+    //pageable // page-request
 
 
 }
